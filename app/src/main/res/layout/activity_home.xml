@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:paddingTop="45dp"
+    android:background="@drawable/storebackg">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="110dp"
+        android:src ="@drawable/logosplash"
+        android:background="@drawable/logosplash"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnCadastrar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="8dp"
+        android:text="Cadastrar Produto"
+        />
+
+    <Button
+        android:id="@+id/btnListar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="8dp"
+        android:text="Listar Produtos"
+        />
+
+    <Button
+        android:id="@+id/btnDeletar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:layout_marginBottom="8dp"
+        android:text="Deletar Produto"
+        />
+
+    <Button
+        android:id="@+id/btnAtualizar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_background"
+        android:text="Atualizar Produto"
+        />
+
+
+
+</LinearLayout>
